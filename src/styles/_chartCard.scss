@@ -1,0 +1,20 @@
+.chart_card {
+  margin: 1rem;
+  padding: 1rem;
+  width: 33.3%;
+  height: 7rem;
+  background: linear-gradient(
+    to left top,
+    rgb(255, 255, 255, 0.8),
+    rgb(255, 255, 255, 0.5)
+  );
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
+  .bottom {
+    display: flex;
+    justify-content: space-between;
+  }
+}
