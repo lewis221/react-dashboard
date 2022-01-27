@@ -1,12 +1,6 @@
 import { useState } from "react";
 import ReactApexChart from "react-apexcharts";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faPlay,
-  faPause,
-  faAngleLeft,
-  faAngleRight,
-} from "@fortawesome/free-solid-svg-icons";   
+
 
 const ChartCard = () => {
     const [spark1, setSpark1] = useState({
